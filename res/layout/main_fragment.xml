@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5" 
+    android:gravity="center_vertical">
+  
+    
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="40px"
+        android:text="请选择  "
+        android:textColor="#5b5b5b"
+        android:background="#f5f5f5" />
+
+    <TextView
+        android:id="@+id/diqu_tv"
+        android:layout_width="222dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="48px"
+        android:text="地 区                                          >"
+        android:textColor="#5b5b5b"
+        android:background="#ffffff" />
+     <TextView
+        android:layout_width="222dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:background="#f5f5f5"  />
+    <TextView
+        android:id="@+id/yiyuan_tv"
+        android:layout_width="222dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="48px"
+        android:text="医 院                                          >" 
+        android:textColor="#5b5b5b"
+        android:background="#ffffff" />
+    
+     <TextView
+        android:layout_width="222dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:background="#f5f5f5"  />
+
+    <TextView
+        android:id="@+id/keshi_tv"
+        android:layout_width="222dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="48px"
+        android:text="科 室                                          >" 
+        android:textColor="#5b5b5b"
+        android:background="#ffffff" />
+    
+     <TextView
+        android:layout_width="222dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:background="#f5f5f5"  />
+
+    <TextView
+        android:id="@+id/yisheng_tv"
+        android:layout_width="222dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textSize="48px"
+        android:text="医 生                                          >"
+        android:textColor="#5b5b5b"
+        android:background="#ffffff"  />
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:background="#f5f5f5"
+    	android:layout_marginTop="20dp"
+    	android:gravity="center_horizontal|center_vertical"
+        >
+        <Button
+	        android:id="@+id/yuyue_btn"
+	        android:layout_width="70dp"
+	        android:layout_height="40dp"
+	        android:background="#F69610"
+	        android:textColor="#FFFFFF"
+	        android:textSize="@dimen/mf_button_textsize"
+	        android:text="预约挂号" 
+	        
+        />
+		<View
+		    android:layout_width="4dp"
+	        android:layout_height="40dp"
+	        android:background="#FFFFFF"
+		    />
+        <Button
+            android:id="@+id/jryy_btn"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+	        android:background="#F69610"
+	        android:textColor="#FFFFFF"
+	        android:textSize="@dimen/mf_button_textsize"
+            android:text="今日预约" />
+		<View
+		    android:layout_width="4dp"
+	        android:layout_height="40dp"
+	        android:background="#FFFFFF"
+		    />
+        <Button
+	        android:id="@+id/jysm_btn"
+	        android:layout_width="70dp"
+	        android:layout_height="40dp"
+	        android:background="#F69610"
+	        android:textColor="#FFFFFF"
+	        android:textSize="@dimen/mf_button_textsize"
+	        android:text="就医扫码"
+        />
+    </LinearLayout>
+    
+
+    
+
+</LinearLayout>

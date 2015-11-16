@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+         <ImageView
+            android:id="@+id/head_imageview"
+            android:layout_width="90dp"
+            android:layout_height="112dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/keshi_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/hospital_tv"
+            android:layout_marginTop="40dp"
+            android:text="XXX科"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/zhicheng_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/keshi_tv"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/keshi_tv"
+            android:text="主任医师"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+        
+
+        <TextView
+            android:id="@+id/hospital_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/head_imageview"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/head_imageview"
+            android:text="XXX医院"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/head_imageview"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/hospital_tv"
+            android:text="张三"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/keshi_tv"
+            android:layout_below="@+id/keshi_tv"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预约时间：" 
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/yuyue_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015-05-06 09:00" 
+                android:textSize="12sp"/>
+    </LinearLayout>
+
+	    <Button
+	        android:id="@+id/jiuyi_btn"
+	        android:layout_width="72dp"
+	        android:layout_height="23dp"
+	        android:layout_alignLeft="@+id/linearLayout1"
+	        android:layout_below="@+id/linearLayout1"
+	        android:layout_marginTop="20dp"
+	        android:background="@drawable/dd_chakan" />
+
+	    <Button
+	        android:id="@+id/cancel_dd_btn"
+	        android:layout_width="72dp"
+	        android:layout_height="23dp"
+	        android:layout_alignBaseline="@+id/jiuyi_btn"
+	        android:layout_alignBottom="@+id/jiuyi_btn"
+	        android:layout_marginLeft="20px"
+	        android:layout_toRightOf="@+id/jiuyi_btn"
+	        android:background="@drawable/dd_quxiao" />
+
+	    <LinearLayout
+	        android:id="@+id/LinearLayout01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/cancel_dd_btn"
+	        android:layout_alignLeft="@+id/linearLayout1"
+	        android:gravity="center"
+	        android:orientation="horizontal" >
+
+	        <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下单时间：" 
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/order_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015-05-06 09:00"
+                android:textSize="12sp" />
+	    </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

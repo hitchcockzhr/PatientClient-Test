@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="90px" >
+
+        
+       <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18px"
+            android:textColor="#f69610"
+            android:text="可预约门诊时间" />
+        <Button
+            android:id="@+id/refresh_btn"
+            android:layout_width="153px"
+            android:layout_height="70px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="900px"
+            android:background="@drawable/yuyue_shuaxin"/>
+
+ 
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/sche_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_weight="0.19" 
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px">
+    </ListView>
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30px">
+	    <Button
+	        android:id="@+id/ok_btn"
+	        android:layout_width="455px"
+	        android:layout_height="120px"
+	        android:layout_marginTop="15px"
+	        android:background="@drawable/yuyue_qr"
+	        />
+	    <Button
+	        android:id="@+id/cancel_btn"
+	        android:layout_width="0px"
+	        android:layout_height="0px"
+	        android:layout_marginTop="15px"
+	        android:background="@drawable/yuyue_qx"
+	        android:layout_marginLeft="0px"
+	        />
+    </LinearLayout>
+
+</LinearLayout>

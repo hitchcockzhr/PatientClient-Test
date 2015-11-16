@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+     	<LinearLayout
+    		android:layout_width="match_parent"
+    		android:layout_height="35dp"
+    		android:orientation="horizontal"
+    		android:background="#F69610" >
+     		<Button 
+				  android:id="@+id/back_btn"
+				  android:layout_width="40dp"
+				  android:layout_height="35dp"
+				  android:layout_gravity="center"
+				  android:background="@drawable/home"
+				  android:text=""
+ 
+ 			/>
+    		<TextView
+				  android:id="@+id/textView1"
+				  android:layout_width="match_parent"
+				  android:layout_height="wrap_content"
+				  android:text="个人中心          " 
+				  android:layout_gravity="center_horizontal|center_vertical"
+				  android:gravity="center_horizontal|center_vertical"
+				  android:textColor="#FFFFFF"
+				  android:textSize="20sp"/>
+       </LinearLayout>
+	</LinearLayout>
+    	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/chat_bottom_look" />
+
+		 <LinearLayout
+		     android:layout_width="100dp"
+		     android:layout_height="wrap_content"
+		     android:orientation="vertical"
+		     android:layout_gravity="center_vertical|center_horizontal"
+		     android:gravity="center_horizontal|center_vertical" >
+
+	        <TextView
+	            android:id="@+id/name_tv"
+	            android:layout_width="100dp"
+	            android:layout_height="30dp"
+	            android:text="张三"
+	            android:textSize="20sp" />
+	        <TextView
+	            android:id="@+id/id_tv"
+	            android:layout_width="100dp"
+	            android:layout_height="30dp"
+	            android:text="ming"
+	            android:textSize="20sp" />
+		</LinearLayout>
+
+		<Button
+		    android:id="@+id/chakan_btn"
+		    android:layout_width="100dp"
+		    android:layout_height="32dp"
+		    android:layout_gravity="center_vertical"
+		    android:text="查看"
+		    android:background="#F69610"
+		    android:textColor="#FFFFFF"
+		    android:textSize="14sp" />
+
+    </LinearLayout>
+    <View 
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="#B1B0A7"       />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal"
+	    >
+		<ImageView 
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:src="@drawable/xgmm"
+		    />
+	    <TextView
+	        android:id="@+id/password_tv"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:text="修改密码"
+	        android:layout_marginLeft="30dp"
+	        android:textSize="20sp"
+	        android:clickable="true" />
+	    
+	</LinearLayout>
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="#B1B0A7"       />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="10dp"
+	    >
+		<ImageView 
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:src="@drawable/ysmp"
+		    />
+	    <TextView
+	        android:id="@+id/ysmp_tv"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:text="医生名片"
+	        android:layout_marginLeft="30dp"
+	        android:textSize="20sp"
+	        android:clickable="true" />
+	    
+	</LinearLayout>
+	<View 
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="#B1B0A7"       />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="10dp"
+	    >
+		<ImageView 
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:src="@drawable/szybz"
+		    />
+	    <TextView
+	        android:id="@+id/setting_tv"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:text="设置"
+	        android:layout_marginLeft="30dp"
+	        android:textSize="20sp"
+	        android:clickable="true" />
+	    
+	</LinearLayout>
+    <View 
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="#B1B0A7"       />
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="10dp"
+	    >
+		<ImageView 
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:src="@drawable/jcxbb"
+		    />
+	    <TextView
+	        android:id="@+id/update_tv"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:text="检测新版本"
+	        android:layout_marginLeft="30dp"
+	        android:textSize="20sp"
+	        android:clickable="true" />
+	    
+	</LinearLayout>
+	<View 
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="#B1B0A7"       />
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="10dp"
+	    >
+		<ImageView 
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:src="@drawable/sm"
+		    />
+	    <TextView
+	        android:id="@+id/help_tv"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:text="版权与帮助"
+	        android:layout_marginLeft="30dp"
+	        android:textSize="20sp"
+	        android:clickable="true" />
+	    
+	</LinearLayout>
+
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="#B1B0A7"       />
+    
+
+</LinearLayout>

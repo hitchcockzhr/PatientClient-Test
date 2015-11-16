@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/change_information"  >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/aci_title_height"
+        android:text="修改信息"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#F69610"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        />
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+	    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/aci_name_tv_height"
+        android:layout_marginLeft="@dimen/aci_name_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_tv_marginTop"
+        android:text="用户名：" />
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="@dimen/aci_name_et_width"
+        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+       />
+	</LinearLayout>
+    <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+       <TextView
+        android:id="@+id/psd_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_psd_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+        android:text="    密码：" />   
+	    <EditText
+	        android:id="@+id/psd_et"
+	        android:layout_width="@dimen/aci_name_et_width"
+	        android:layout_height="@dimen/aci_name_et_height"
+        	android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+        	android:layout_marginTop="@dimen/aci_name_et_marginTop"
+	         /> 
+    </LinearLayout>
+ 	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+     <TextView
+        android:id="@+id/psd_again_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_psd_again_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+        android:text="重输密码：" />
+     <EditText
+        android:id="@+id/psd_again_et"
+        android:layout_width="@dimen/aci_name_et_width"
+	    android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+      	/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/xingming_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_psd_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+        android:text="    姓名：" />
+
+    <EditText
+        android:id="@+id/xingming_et"
+        android:layout_width="@dimen/aci_name_et_width"
+        android:layout_height="@dimen/aci_name_et_height"
+       	android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+       	android:layout_marginTop="@dimen/aci_name_et_marginTop"
+         /> 
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/set_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_psd_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+        android:text="    性别：" />
+
+    <Spinner
+        android:id="@+id/sex_spinner"
+        android:layout_width="@dimen/aci_spinner_width"
+        android:layout_height="@dimen/aci_name_et_height"
+       	android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+       	android:layout_marginTop="@dimen/aci_name_et_marginTop"
+         />
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/birth_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_psd_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+        android:text="    生日：" />
+
+    <Spinner
+        android:id="@+id/year_spinner"
+        android:layout_width="@dimen/aci_spinner_width"
+        android:layout_height="@dimen/aci_name_et_height"
+       	android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+       	android:layout_marginTop="@dimen/aci_name_et_marginTop"
+         />
+
+    <Spinner
+        android:id="@+id/month_spinner"
+        android:layout_width="@dimen/aci_spinner_width"
+        android:layout_height="@dimen/aci_name_et_height"
+       	android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+       	android:layout_marginTop="@dimen/aci_name_et_marginTop"
+         />
+
+    <Spinner
+        android:id="@+id/day_spinner"
+        android:layout_width="@dimen/aci_spinner_width"
+        android:layout_height="@dimen/aci_name_et_height"
+       	android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+       	android:layout_marginTop="@dimen/aci_name_et_marginTop"
+        />
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView
+	        android:id="@+id/id_tv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_psd_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+	        android:text="身份证：" />
+	
+	    <EditText
+	        android:id="@+id/id_et"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/aci_name_et_height"
+       	android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+       	android:layout_marginTop="@dimen/aci_name_et_marginTop"
+	        android:ems="18"
+	      />
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView
+	        android:id="@+id/mail_tv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_psd_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+	        android:text="    电邮：" />
+	
+	    <EditText
+	        android:id="@+id/mail_et"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/aci_name_et_height"
+       		android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+       		android:layout_marginTop="@dimen/aci_name_et_marginTop"
+	        android:ems="10" />
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	     <TextView
+	        android:id="@+id/phone_tv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_psd_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+	        android:text="手机号：" />
+	    <EditText
+	        android:id="@+id/phone_et"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/aci_name_et_height"
+       	android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+       	android:layout_marginTop="@dimen/aci_name_et_marginTop"
+	        android:inputType="number"
+	        android:ems="10" />
+	
+	   
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <TextView
+	        android:id="@+id/address_tv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginLeft="@dimen/aci_psd_tv_marginLeft"
+        android:layout_marginTop="@dimen/aci_name_et_marginTop"
+	        android:text="    地址：" />
+	
+	    <EditText
+	        android:id="@+id/address_et"
+	        android:layout_width="wrap_content"
+	        android:layout_height="@dimen/aci_name_et_height"
+       	android:layout_marginLeft="@dimen/aci_name_et_marginLeft"
+       	android:layout_marginTop="@dimen/aci_name_et_marginTop"
+	       	
+	        android:ems="10" />
+	</LinearLayout>
+    <Button
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:id="@+id/ok_btn"
+        android:layout_width="@dimen/aci_ok_btn_width"
+        android:layout_height="@dimen/aci_name_et_height"
+        android:layout_marginTop="@dimen/aci_ok_btn_marginTop"
+        android:background="#F69610"
+        android:textColor="#FFFFFF"
+        android:text="修改" />
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+	 
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:background="#F69610" >
+             <Button 
+		        android:id="@+id/back_btn"
+		        android:layout_width="40dp"
+		        android:layout_height="35dp"
+		        android:layout_gravity="center"
+		        android:background="@drawable/home"
+		        android:text=""
+	        
+	        />
+            <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="我的二维码          " 
+		        android:layout_gravity="center_horizontal|center_vertical"
+		        android:gravity="center_horizontal|center_vertical"
+		        android:textColor="#FFFFFF"
+		        android:textSize="20sp"/>
+            </LinearLayout>
+    
+    
+    <TextView
+        android:id="@+id/doctor_qr_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        
+        android:hint="就医信息"/>
+    
+    <Button
+        android:id="@+id/doctor_add_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F69610"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:text="点击生成就医二维码" />
+    
+    <ImageView 
+        android:id="@+id/doctor_qr_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+    <TextView 
+        android:id="@+id/doctor_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="尚未就医"/>
+    <TextView 
+        android:id="@+id/medicine_qr_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="取药信息"/>
+    
+    <Button
+        android:id="@+id/medicine_add_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F69610"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:text="点击生成取药二维码" />
+    
+    <ImageView 
+        android:id="@+id/medicine_qr_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+    <TextView 
+        android:id="@+id/medicine_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="尚未取药"/>
+
+    <Button
+        android:id="@+id/refresh_btn"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#F69610"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="刷新" />
+
+</LinearLayout>

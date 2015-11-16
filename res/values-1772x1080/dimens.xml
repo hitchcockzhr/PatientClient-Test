@@ -1,0 +1,45 @@
+
+<resources>
+	<!--1772 x 1080  -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<!-- activity_login.xml -->
+	<dimen name="login_name_et_width">150dp</dimen>
+	<dimen name="login_name_et_margin_right">120dp</dimen>
+	<dimen name="login_btn_width">184.8dp</dimen>
+	<dimen name="login_btn_height">50.8dp</dimen>
+	<dimen name="imageview_width">120dp</dimen>
+	<dimen name="imageview_height">120dp</dimen>
+	<dimen name="imageview_margin_top">30dp</dimen>
+	<!-- activity_change_information.xml -->
+	<dimen name="aci_title_height">40dp</dimen>
+	<dimen name="aci_name_tv_height">30dp</dimen>
+	<dimen name="aci_name_tv_marginLeft">40dp</dimen>
+	<dimen name="aci_name_tv_marginTop">40dp</dimen>
+	<dimen name="aci_name_et_width">150dp</dimen>
+	<dimen name="aci_name_et_height">30dp</dimen>
+	<dimen name="aci_name_et_marginLeft">10dp</dimen>
+	<dimen name="aci_name_et_marginTop">10dp</dimen>
+	<dimen name="aci_psd_tv_marginLeft">20dp</dimen>
+	<dimen name="aci_psd_again_tv_marginLeft">7dp</dimen>
+	<dimen name="aci_spinner_width">80dp</dimen>
+	<dimen name="aci_ok_btn_width">70dp</dimen>
+	<dimen name="aci_ok_btn_marginTop">53dp</dimen>
+	<!-- activity_change_psd.xml -->
+	<dimen name="acp_title_height">40dp</dimen>
+	<dimen name="acp_marginLeft">30dp</dimen>
+	<dimen name="acp_marginTop_1">10dp</dimen>
+	<dimen name="acp_marginTop_2">20dp</dimen>
+	<dimen name="acp_marginTop_3">30dp</dimen>
+	<dimen name="acp_btn_widith">70dp</dimen>
+	<dimen name="acp_btn_height">40dp</dimen>
+	<!-- activity_chat.xml -->
+	<dimen name="ac_title_height">40dp</dimen>
+	<!-- main_fragment -->
+	<dimen name="mf_button_textsize">48px</dimen>
+	<!-- schedule_list_item -->
+	<dimen name="sli_item_textsize">36px</dimen>
+	<!-- activity_ddxq -->
+	<dimen name="ddxq_item_textsize">45px</dimen>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#FFFFFF"
+        android:background="#F69610"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="排队详情" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tv1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="该诊室当前共有 ：" 
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/total_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10" 
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/tv1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 人" 
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        
+    </LinearLayout>
+	
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tv2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="该诊室当已看完 ：" 
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/done_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" 
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/tv12_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 人" 
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tv3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="该诊室仍需等待 ：" 
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/wait_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" 
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/tv3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 人" 
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        
+    </LinearLayout>
+
+     <LinearLayout 
+       android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:background="#ffffff"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="30dp"
+    	android:layout_gravity="center_vertical|center_horizontal"
+    	android:gravity="center_vertical|center_horizontal" >
+	   <Button
+	       	android:id="@+id/enter_btn"
+	        android:layout_width="70dp"
+	        android:layout_height="30dp"
+	        android:background="#F69610"
+	        android:textColor="#FFFFFF"
+	       	android:text="进入" />
+	   
+	
+	   
+	   </LinearLayout>
+    
+
+   
+
+</LinearLayout>

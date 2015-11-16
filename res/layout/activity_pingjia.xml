@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#FFFFFF"
+        android:background="#F69610"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="订单评价" />
+	<TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入您的评价" />
+    <EditText
+        android:id="@+id/pingjia_et"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+         />
+    </EditText>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请为医生的服务打分" />
+     <LinearLayout 
+       android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#ffffff"
+    	android:orientation="horizontal" 
+       >
+       <TextView
+        android:id="@+id/zhunshi_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="准时"
+        android:textColor="#5b5b5b"
+        android:layout_marginTop="35px"
+        android:layout_marginLeft="35px"
+        android:textSize="35px" />
+       <RatingBar
+            android:id="@+id/zs_rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35px"
+            android:layout_marginLeft="35dp"
+            android:numStars="5"
+         	android:rating="4"
+         	style="@style/roomRatingBar" 
+         	android:stepSize="1"/>
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#ffffff"
+    	android:orientation="horizontal" 
+       >
+      <TextView
+        android:id="@+id/zhunque_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="准确" 
+        android:textColor="#5b5b5b"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="35px"
+        android:textSize="35px"  />
+       <RatingBar
+            android:id="@+id/zq_rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35px"
+            android:layout_marginLeft="35dp"
+            android:numStars="5"
+         	android:rating="4"
+         	style="@style/roomRatingBar" 
+         	android:stepSize="1"/>
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#ffffff"
+    	android:orientation="horizontal" 
+       >
+       <TextView
+        android:id="@+id/youxiao_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="有效" 
+        android:textColor="#5b5b5b"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="35px"
+        android:textSize="35px"  />
+       <RatingBar
+            android:id="@+id/yx_rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35px"
+            android:layout_marginLeft="35dp"
+            android:numStars="5"
+         	android:rating="4"
+         	style="@style/roomRatingBar" 
+         	android:stepSize="1"/>
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#ffffff"
+    	android:orientation="horizontal" 
+       >
+       <TextView
+        android:id="@+id/jingji_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经济" 
+        android:textColor="#5b5b5b"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="35px"
+        android:textSize="35px"  />
+       <RatingBar
+            android:id="@+id/jj_rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35px"
+            android:layout_marginLeft="35dp"
+            android:numStars="5"
+         	android:rating="4"
+         	style="@style/roomRatingBar" 
+         	android:stepSize="1"/>
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#ffffff"
+    	android:orientation="horizontal" 
+       >
+      <TextView
+        android:id="@+id/naixin_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="耐心" 
+        android:textColor="#5b5b5b"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="35px"
+        android:textSize="35px"  />
+       <RatingBar
+            android:id="@+id/nx_rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35px"
+            android:layout_marginLeft="35dp"
+            android:numStars="5"
+         	android:rating="4"
+         	style="@style/roomRatingBar" 
+         	android:stepSize="1"/>
+   </LinearLayout>
+	<LinearLayout 
+       android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:background="#ffffff"
+    	android:orientation="horizontal"
+    	android:layout_marginTop="30dp"
+    	android:layout_gravity="center_vertical|center_horizontal"
+    	android:gravity="center_vertical|center_horizontal" >
+	   <Button
+	       	android:id="@+id/ok_btn"
+	        android:layout_width="70dp"
+	        android:layout_height="30dp"
+	        android:background="#F69610"
+	        android:textColor="#FFFFFF"
+	       	android:text="确认" />
+	   <View 
+	       android:layout_width="20dp"
+	       android:layout_height="wrap_content"/>
+	
+	   <Button
+		    android:id="@+id/cancel_btn"
+		    android:layout_width="70dp"
+	        android:layout_height="30dp"
+	        android:background="#F69610"
+	        android:textColor="#FFFFFF"
+	       	android:text="返回" />
+	   </LinearLayout>
+
+</LinearLayout>

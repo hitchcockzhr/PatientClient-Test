@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/login_layout">
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="@dimen/login_name_et_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/login_name_et_margin_right"
+        android:layout_marginTop="134dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/psd_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/psd_et"
+        android:layout_alignBottom="@+id/psd_et"
+        android:layout_toLeftOf="@+id/psd_et"
+        android:textColor="#F69610"
+        android:text="密码：" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/name_et"
+        android:layout_alignBottom="@+id/name_et"
+        android:layout_alignRight="@+id/psd_tv"
+        android:textColor="#F69610"
+        android:text="用户名：" />
+
+    <EditText
+        android:id="@+id/psd_et"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_et"
+        android:layout_below="@+id/name_et"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPassword"  >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/register_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="新用户注册"
+        android:textColor="#F69610" />
+
+    <Button
+        android:id="@+id/up_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFFFF"
+        android:textColor="#F69610"
+        android:text="一键反馈" />
+
+    <CheckBox
+        android:id="@+id/remember_psd_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/psd_et"
+        android:layout_centerHorizontal="true"
+        android:text="记住密码"
+        android:textColor="#F69610" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="@dimen/login_btn_width"
+        android:layout_height="@dimen/login_btn_height"
+        android:layout_below="@+id/remember_psd_cb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/login_btn"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/imageview_width"
+        android:layout_height="@dimen/imageview_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/imageview_margin_top"
+        android:src="@drawable/logo_air" />
+
+</RelativeLayout>

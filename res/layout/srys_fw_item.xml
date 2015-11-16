@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    
+
+    <TextView
+        android:id="@+id/srys_fw_leixing_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图文咨询   " />
+
+    <TextView
+        android:id="@+id/srys_fw_jiage_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25元一次   " />
+
+    <TextView
+        android:id="@+id/srys_fw_mianfei_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="免费不限次数" />
+
+</LinearLayout>

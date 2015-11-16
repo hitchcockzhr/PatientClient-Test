@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.patientclient01"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar"
+        android:name="com.example.patientclient01.MyApp" >
+        <activity
+            android:name="com.example.patientclient01.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.patientclient01.MainActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.RegisterActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.YuyueActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.YuYueGuanLiActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.YiShengJianJieActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.SiRenYiShengActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.KsxzActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.YsxzActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.DingDanActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.DingDanGuanLiActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.DingDanXiangQingActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanJinRi" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.SaoMaGuanLiActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.ChatActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanQuanBu" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanDaiFuKuan" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanDaiPingJia" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanQuXiao" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanDaiKaiShi" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanDaiJiuYi" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanDaiFuYaoFei" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanDaiQuYao" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanYiPingJia" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanYiJieShu" android:label="@string/app_name"/>
+        <activity android:name="com.example.dingdan.DingDanYiKaiShi" android:label="@string/app_name"/>
+        <activity android:name="com.example.zhifu.FukuanSuccessActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.QueueActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.KSJYActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.CSXZActitivy" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.GeRenZhongXinActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.patientclient01.PingJiaActivity" android:label="@string/app_name"/>
+        <activity android:name="com.qrcode.QRMainActivity" android:label="@string/app_name"/>
+        <activity android:name="com.qrcode.QRActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.picture.PictureActivity" android:label="@string/app_name"/>
+        <activity android:name="com.example.picture.Picture" android:label="@string/app_name"/>
+        <activity android:name="com.example.picture.SelectPictureActivity" android:label="@string/app_name"/>
+         <activity
+            android:configChanges="orientation|keyboardHidden"    
+            android:name="com.zxing.activity.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"    
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <service android:name="com.example.patientclient01.QueueService" />  
+    </application>
+	<uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />  
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"></uses-permission>
+     <uses-permission android:name="android.permission.VIBRATE" />  <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />        <!-- 使用照相机权限 -->
+    <uses-feature android:name="android.hardware.camera.autofocus" />   
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+</manifest>
